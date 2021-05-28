@@ -1,0 +1,223 @@
+* {
+    padding: 0px;
+    margin: 0px;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url(bg-intro-mobile.png);
+    background-color: rgb(243, 131, 131);
+    font-family: 'Poppins', sans-serif;
+}
+
+.section1 {
+    height: 35vh;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+}
+
+.heading {
+    margin-top: 60px;
+}
+
+.info {
+    margin-top: 20px;
+    font-size: 16px;
+}
+
+.button {
+    height: 15vh;
+    margin-top: 40px;
+    margin-left: 30px;
+}
+
+.adj {
+    background-color: hsl(248, 32%, 49%);
+    width: 90%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    box-shadow: 0 4px rgb(54, 54, 54);
+}
+
+.info1 {
+    font-weight: 700;
+}
+
+.form {
+    height: 50vh;
+    margin-top: 20px;
+    margin-left: 30px;
+    margin-bottom: 100px;
+}
+
+.form-adj {
+    padding: 5px;
+    background-color: white;
+    width: 90%;
+    border-radius: 10px;
+}
+
+ .adj1 {
+    margin-top: 25px;
+    margin-left: 20px;
+    width: 87%;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.adj2 {
+    margin-top: 15px;
+    margin-left: 20px;
+    width: 87%;
+    padding: 10px;
+    font-weight: 700;
+}
+
+.adj3 {
+    margin-top: 15px;
+    margin-left: 20px;
+}
+
+.green {
+    background-color: hsl(154, 59%, 51%);
+    width: 93%;
+    padding: 15px;
+    border-radius: 10px;
+    box-shadow: 0 4px hsl(154, 85%, 37%);
+    text-align: center;
+    color: white;
+    font-weight: 700;
+}
+
+.info2 {
+    margin-top: 20px;
+    font-size: 12px;
+    text-align: center;
+}
+
+.info2 span {
+    color: tomato;
+    font-weight: 700;
+}
+
+@media screen and (max-width: 768px) {
+    .lap-section1, .lap-heading, .lap-info, .lap-section2, .lap-adj, .lap-info1, .lap-form, .lap-form-adj, .lap-adj1, .lap-adj2, .lap-adj3, .lap-green, .lap-info2, .last {
+        display: none;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .lap-section1, .lap-heading, .lap-info, .lap-section2, .lap-adj, .lap-info1, .lap-form, .lap-form-adj, .lap-adj1, .lap-adj2, .lap-adj3, .lap-green, .lap-info2, .last {
+        display: none;
+    }
+}
+
+
+@media screen and (min-width: 1025px) {
+    .section1, .heading, .info, .button, .adj, .info1, .form, .form-adj, .adj1, .adj2, .adj3, .green, .info2 {
+        display: none;
+    }
+}
+
+.lap-section1 {
+    width: 50%;
+    float: left;
+    margin-top: 20%;
+}
+
+.lap-section2 {
+    width: 50%;
+    float: right;
+    margin-top: 8%;
+}
+
+.lap-heading {
+    margin-left: 25%;
+    font-size: 54px;
+    font-weight: 700;
+    color: white;
+}
+
+.lap-info {
+    margin-left: 25%;
+    margin-top: 20px;
+    font-size: 18px;
+    color: white;
+    font-weight: 700;
+}
+
+.lap-adj {
+    margin-left: 20px;
+    width: 80%;
+    background-color: hsl(248, 32%, 49%);
+    padding: 22px;
+    border-radius: 10px;
+    text-align: center;
+    color: white;
+    font-size: 18px;
+    box-shadow: 0 5px rgb(83, 83, 83);
+}
+
+.lap-info1 {
+    font-weight: 700;
+}
+
+.lap-form {
+    margin-left: 20px;
+    margin-top: 40px;
+}
+
+.lap-form-adj {
+    background-color: white;
+    width: 82%;
+    border-radius: 15px;
+    padding: 20px;
+    box-shadow: 0 5px rgb(114, 112, 112);
+}
+
+.lap-adj1 {
+    margin-top: 20px;
+    margin-left: 15px;
+    width: 95%;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.lap-adj2 {
+    margin-top: 25px;
+    margin-left: 15px;
+    width: 95%;
+    padding: 20px;
+    font-weight: 700;
+    font-size: 18px;
+}
+
+.lap-adj3 {
+    margin-top: 20px;
+    margin-left: 15px;
+    background-color: hsl(154, 59%, 51%);
+    width: 95%;
+    padding: 20px;
+    border-radius: 10px;
+    text-align: center;
+    font-size: 18px;
+    color: white;
+    font-family: 700;
+    box-shadow: 0 5px hsl(154, 85%, 37%);
+}
+
+.lap-info2 {
+    margin-top: 20px;
+    text-align: center;
+    font-size: 14px;
+    color: grey;
+}
+
+.last {
+    color: tomato;
+    font-weight: 700;
+}
