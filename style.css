@@ -109,6 +109,12 @@ body {
     }
 }
 
+@media screen and (max-width: 365px) {
+    .lap-section1, .lap-heading, .lap-info, .lap-section2, .lap-adj, .lap-info1, .lap-form, .lap-form-adj, .lap-adj1, .lap-adj2, .lap-adj3, .lap-green, .lap-info2, .last {
+        display: none;
+    }
+}
+
 @media screen and (max-width: 1024px) {
     .lap-section1, .lap-heading, .lap-info, .lap-section2, .lap-adj, .lap-info1, .lap-form, .lap-form-adj, .lap-adj1, .lap-adj2, .lap-adj3, .lap-green, .lap-info2, .last {
         display: none;
